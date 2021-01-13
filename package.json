@@ -1,0 +1,31 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preexport": "next build",
+    "export": "next export",
+    "start": "serve out",
+    "optimize": "exiftool -all= $IMG && mogrify -resize 1920x $IMG"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@types/react": "^16.14.0",
+    "autoprefixer": "^10.0.2",
+    "gray-matter": "^4.0.2",
+    "postcss": "^8.1.9",
+    "serve": "^11.3.2",
+    "tailwindcss": "^2.0.1",
+    "typescript": "^4.1.2"
+  }
+}

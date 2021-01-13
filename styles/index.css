@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+html, body {
+  @apply px-4 py-2 font-bold rounded;
+}
+
+@tailwind utilities;
